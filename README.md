@@ -1,16 +1,75 @@
-# React + Vite
+# 🐝 TicketsHive — Support Desk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek IT helpdesk and ticket management system built with React + Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎫 **Kanban Board** — Ticket columns: NEW, IN PROGRESS, RESOLVED, CLOSED
+- 🔍 **Smart Filtering** — Search by title/assignee + filter by Status, Type, Priority
+- ⏱️ **Live SLA Timers** — Real-time countdown per ticket
+- 📊 **Analytics Dashboard** — Donut chart (by status) + Bar chart (by type)
+- ✅ **Task Manager** — Separate task list with badge count
+- 🆕 **Create Ticket Modal** — Title, Type, Priority, Assignee, SLA, Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Layer | Technology |
+|---|---|
+| Frontend | React 18 + JSX |
+| Bundler | Vite |
+| Charts | Recharts |
+| Linting | ESLint |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/tickets-hive.git
+cd tickets-hive
+npm install
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```
+tickets-hive/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+---
+
+## 🎟️ Ticket Fields
+
+| Field | Options |
+|---|---|
+| Type | Incident, Service Request, Task, Change Request |
+| Priority | Low, Medium, High, Critical |
+| Status | New, In Progress, Resolved, Closed |
+| SLA | Custom hours — countdown starts at creation |
+| Assigned To | Agent name |
+
+---
+
+## 📄 License
+
+MIT License — see [LICENSE](LICENSE) for details.
