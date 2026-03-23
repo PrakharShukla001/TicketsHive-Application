@@ -1,6 +1,6 @@
 # 🐝 TicketsHive — Support Desk
 
-A sleek IT helpdesk and ticket management system built with React + Vite.
+A sleek IT helpdesk and ticket management system built by Prakhar with help of React + Vite.
 
 ---
 
